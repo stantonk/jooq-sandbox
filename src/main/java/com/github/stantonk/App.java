@@ -45,6 +45,7 @@ public class App {
 //            author.setLastName("Doe");
 //            author.setYearOfBirth(1985);
 //            //TODO author.setDateOfBirth(); hmm, how to safely handle Date objects, timezones?
+              //TODO check this out: http://stackoverflow.com/questions/18441747/does-jooq-supports-joda-time
 //            ctx.executeInsert(author);
         } catch (Exception e) {
             // For the sake of this tutorial, let's keep exception handling simple
